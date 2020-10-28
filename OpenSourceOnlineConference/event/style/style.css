@@ -1,0 +1,153 @@
+@charset "utf-8";
+blocks {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.block {
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding: 25px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.block h2 a {
+    color: #000;
+}
+
+.block img {
+    border: 0px solid #F4CC2E;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+.block:hover img {
+    < !--border: 3px solid #F4CC2E;
+    border-radius: 100px;
+    -->
+}
+
+.block:hover h2 a {
+    color: #F4CC2E;
+    transition: 0.3s;
+}
+.blocks {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.block02 {
+    border: 1px solid #ddd;
+    border-left: 0;
+    float: left;
+    width: 20%;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box
+}
+
+.block02 img {
+    width: 100%
+}
+
+
+/* 조성원 */
+
+.t-center {text-align: center;}
+/* 개요 */
+.summary  p{margin-bottom: 10px; overflow: hidden;}
+.summary p span {display: inline-block; padding: 10px 25px; width: 120px; box-sizing: border-box; text-align: center; background-color: #2b54af; margin-right: 10px; color: #fff; vertical-align: text-top;float: left;font-size: 15px;}
+.summary p strong {font-weight: 400; display: inline-block; margin-top: 10px;}
+
+
+/* 프로그램정보 */
+.tablist {font-size: 0; margin-bottom: 30px;}
+.tablist li {width: calc(50% - 5px); display: inline-block; margin-right: 10px;}
+.tablist li:last-child {margin-right: 0px;}
+.tablist li a {display: inline-block; padding: 15px 5px; font-size: 18px;width: 100%; box-sizing: border-box; background-color: #62a5ea; text-align: center; color: #fff;}
+.tablist li.on a {background-color: #2b54af;}
+.tab-cnt > div {display: none;}
+.tab-cnt > div.on {display: block;}
+
+
+
+/* Table Style */
+.table-top{margin-bottom:10px;width:100%;float:left}
+.table-top input,.table-top select{margin-bottom:0!important}
+.table-bottom{margin-bottom:20px;float:left;width:100%}
+.table td.board-cont{min-height:200px;text-align:left;line-height:20px;font-size:13px;font-weight:400;color:#666}
+.table{width:100%;border-top: 1px solid #555;border-bottom: 1px solid #ccc;margin:0 0 10px;padding:0;border-collapse:collapse;}
+.table tr th{font-size:14px;font-weight:700;border:1px solid #ddd;border-bottom: 1px solid #ccc;background:#f7f7f7;padding: 12px 5px;}
+.table tr td{font-size:14px;line-height:normal;font-weight:400;text-align:center;;border:1px solid #e0e0e0;padding:10px 10px;color:#888}
+.table tr:first-child>*{border-top: 0;}
+.table tbody tr:last-child>*{border-bottom: 0;}
+.table tr th:first-child,.table tr td:first-child{border-left:0}
+.table tr th:last-child,.table tr td:last-child{border-right:0}
+.table tr td.outlink a{color:#ed4242}
+.table tr td.outlink a:hover{text-decoration:underline}
+.table tr td.total2{background-color:#efefef;font-weight:700}
+.table tr td.total{background-color:#eafaff;font-weight:700}
+.table td p:not(:last-child){margin-bottom:5px}
+.number{font-family:Verdana,sans-serif;font-size:11px}
+.table tr td.attachment{background-image:url(../images/attachment_icon.png);background-position:center center;background-repeat:no-repeat}
+.table tr td.title{width:10px;text-align:left;padding:5px 10px;overflow:hidden;text-overflow:ellipsis;font-weight:500;white-space:nowrap;text-align:left!important}
+.table tr td.title_re{text-align:left;padding:0 0 0 24px;overflow:hidden;text-overflow:ellipsis;background-image:url(../images/reply_header.png);background-position:left center;background-repeat:no-repeat}
+.table + h4{clear:both;margin-top:20px}
+.table pre{padding:0;border:0;margin:0;font-size:12px;font-weight:700}
+.table + #content_navigation{margin-top:20px}
+.table.detail{width:100%;border:1px solid #ccc;}
+.table.detail tr td{border:1px solid #ddd;}
+.table.detail tr th{border-bottom:1px solid #ddd;}
+.table.detail tr td.field_title{height:35px;background-color:#f7f7f7;width:20%;padding:font-weight:700}
+.table.detail tr td.field_title{height:35px;background-color:#f7f7f7;width:20%;padding:font-weight:700}
+.table.detail td{text-align:left}
+.table.detail tr td.field_value{height:auto;border-bottom:1px solid #ddd;text-align:left;padding:10px}
+.table.detail tr td.field_value div.field_value{height:auto;border-top:1px solid #cfcfcf;text-align:left;margin-top:10px;padding-top:10px}
+.table.detail tr td.field_value2{text-align:center}
+.table td img{max-width:100%}
+.table td a{color:#555;font-weight:700;text-decoration:underline}
+.table td a:hover{color:#607997;text-decoration:underline}
+.table.detail tr:first-child>*{border-top: 0;}
+.table.detail tr:last-child>*{border-bottom: 0;}
+
+/* 연사소개 */
+.intro {font-size: 0; margin-top: 30px;}
+.intro > li {font-size: 14px; width: 25%; text-align: center; display: inline-block;}
+.intro > li .intro-img-wrap {border: 1px solid #ddd; border-radius: 100%; width: 120px; height: 120px; margin: auto;}
+.intro > li .intro-img-wrap img {width: 100%; height: 100%; border-radius: 100%;}
+.intro > li .pro-name {margin: 20px 0 5px; font-size: 16px; font-weight: 700;}
+
+
+/* 안내사항 */
+.call {font-size: 18px; font-weight: 500; margin-bottom: 30px;}
+.call:before {content: ""; width: 10px; height: 10px; display: inline-block; vertical-align: middle; background-color: #000; margin-right: 10px;margin-bottom: 3px;}
+.academy {font-size: 15px; margin-bottom: 30px;}
+.academy-info > li {margin-bottom: 5px;padding-left: 15px;}
+.academy-info > li:before {content: ""; border-radius: 100%; width: 4px; height: 4px; background-color: #000; display: inline-block; vertical-align: middle; margin-right: 15px; margin-bottom: 2px;margin-left: -10px;}
+
+
+@media screen and (max-width: 480px){
+    .page-title {margin-bottom: 10px; font-size: 18px;}
+    .summary p {border: 1px solid #ddd; margin-bottom: 10px; padding-bottom: 10px; font-size: 13px;}
+    .summary p span {width: 100%;padding: 7px 12px;font-size: 14px;}
+    .summary p strong {margin-left: 10px;}
+    
+    .table th, .table td {font-size: 12px !important; padding: 10px 5px !important; word-break: keep-all;}
+    .tablist { margin-bottom: 15px;}
+    .tablist li a {padding: 7px 3px; font-size: 14px;}
+    
+    .intro > li {width: 50%; font-size: 13px; margin-bottom: 20px;}
+    .intro > li .intro-img-wrap {width: 60px; height: 60px;}
+    .intro > li .pro-name {margin: 10px 0 2px; font-size: 15px;}
+    
+    .call {font-size: 16px; margin-bottom: 15px;}
+    .call:before {width: 6px; height: 6px; margin-right: 6px; margin-bottom: 1px;}
+    .academy {font-size: 14px; margin-bottom: 15px;}
+    .academy-info > li {margin-bottom: 2px;}
+    .academy-info > li:before {width: 3px; height: 3px; margin-right: 7px; margin-bottom: 1px;}
+    
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko" style="">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITLE -->
+    <title>이러닝학회</title>
+    <link rel="stylesheet" href="./style/layout.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/normal.css">
+    <link rel="stylesheet" href="./style/layout.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180330904-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-180330904-1');
+    </script>
+</head>
+
+<body>
+    <div class="container fixed_header">
+        <!-- HEADER -->
+        <div class="header_wrap xe-clearfix">
+            <header class="header sub group">
+                <h1 class="logo-item">
+                    <a href="http://www.selearning.org/">
+                        <img src="./images/logo.gif" alt="이러닝학회">
+                    </a>
+                </h1>
+            </header>
+        </div>
+        <!-- END:HEADER -->
+
+        <!-- VISUAL -->
+        <div class="visual-txt">
+            <div class="group">
+                <p>뉴노멀 시대에서 이러닝의 역할과 방향</p>
+                <div>2020년 이러닝학회 추계학술대회</div>
+                <!-- 추가 -->
+                <p class="en">Proceedings of The 2020 Autumn Conference of The Society of e-Learning</p>
+                <!-- //추가 -->
+            </div>
+        </div>
+        <!-- /VISUAL -->
+
+
+        <!-- BODY -->
+        <div class="body sub">
+            <div class="group" id="content">
+                <!-- LNB -->
+                <div class="submenu">
+                    <h5>2020<br />추계학술대회</h5>
+                    <ul>
+                        <li><a href="http://www.selearning.org/gaeyo.html">개요</a></li>
+                        <li class="on"><a href="http://www.selearning.org/program.html">프로그램 정보</a></li>
+                        <!--<li><a href="#">연사소개</a></li>-->
+
+                        <li>
+                           <a href="http://www.selearning.org/real_time_forum.html">실시간 포럼 참여 
+                             <span class="ic-live">Live</span> <!-- Live 버튼 삭제시 해당 영역을 주석 처리해주세요 -->
+                           </a>
+                        </li> 
+
+                        <li><a href="http://www.selearning.org/conference.html">컨퍼런스 영상</a></li>
+                        <li><a href="http://www.selearning.org/annae.html">안내사항</a></li>
+                        <li><a href="http://www.selearning.org/homepage" target="_blank">이러닝학회 바로가기</a></li>
+                    </ul>
+                </div>
+                <!-- /LNB -->
+                <!-- CONTENTS -->
+                <div class="cont">
+                    <h6 class="page-title">프로그램 정보</h6>
+                    <ul class="tablist">
+                        <li class="on"><a href="#" data-target=".data01">10/16(금)</a></li>
+                        <li><a href="#" data-target=".data02">10/17(토)</a></li>
+                    </ul>
+                    <!-- 변경 -->
+                    <div class="tab-cnt">
+                        <div class="data01 on">
+                            <table class="table detail">
+                                <colgroup>
+                                    <col width="20%" />
+                                    <col width="80%" />
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th colspan="2">2020.10.16 (금)</th>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="6">10:00~12:00</th>
+                                        <th>에듀테크 세미나 A세션</th>
+                                    </tr>
+                                    <tr>
+                                        <td>상호작용 도구 활용 (조기성 교사, 스마트교육학회장)</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>뉴노멀 시대 온라인 학급 시작하기 (최만 교사, 오정초등학교)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>온라인 강의실 구축(OBS와 스냅 메신저의 활용) (허원 교수, 공주대)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>쏙쏙 외워지는 클래스카드로 수업하기 (김현진 교사, 삼척남초등학교)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t-center">좌장: 허원 교수(공주대)</td>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="3">13:30~14:20</th>
+                                        <th>학술대회 개회 행사</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>- 개회사 : 허원 (이러닝학회 회장)</p>
+                                            <p>- 기조강연 : 이주호 KDI 교수, 전 교육부장관 “4차 산업혁명과 코로나 시대의 교육"</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t-center">사회: 손진곤(방송대)
+</td>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="5">14:30~16:00</th>
+                                        <th>산업기술 및 정책기획 세션</th>
+                                    </tr>
+                                    <tr>
+                                        <td >정책 세션1: K-에듀 통합 플랫폼 추진 방향 (변태준 본부장, KERIS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>정책 세션2: 포스트 코로나 대응, 미래교육체제 전환을 위한 에듀테크 산업 진흥 정책 (이광세 이사, 에듀테크산업협회)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>기업 세션: 디모아: 마이크로소프트와 에듀테크 도구들 (김영욱 부장, 마이크로소프트)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t-center">좌장: 손진곤(방송대)</td>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="6">16:00~18:00</th>
+                                        <th>에듀테크 세미나 B세션</th>
+                                    </tr>
+                                    <tr>
+                                        <td>오픈소스 Jitsi 활용 (박종대 교수, 배재대)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>인터넷 시험 실행 사례 (김정태 교수, 배재대 교수학습센터장)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>가상 현실 기술의 현재 (박기현 부사장, 테크빌)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>포스트 코로나 시대, 미래교육체제의 변화 사례를 통한 인사이트 (정훈 대표, 러닝스파크)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t-center">좌장: 박종대(배재대)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="data02">
+                            <table class="table detail">
+                                <colgroup>
+                                    <col width="20%" />
+                                    <col width="80%" />
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th colspan="2">
+                                            2020.10.17 (토)
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="9">10:00~12:00</th>
+                                        <th>학술 발표 세션</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>AI를 활용한 맞춤형 교과연계 진로교육 콘텐츠 개발 모형 연구</p>
+                                            <p>- 권기원(방송대), 김하연(서울대), 백진헌(KAIST)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>블록체인기반의 온라인 시험관리 시스템 설계</p>
+                                            <p>- 남구모, 김선경, 손진곤(방송대)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>학습 스타일을 적용한 맞춤형 이러닝시스템의 요구분석</p>
+                                            <p>- 백성범, 이순영, 손진곤(방송대)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>교육용 챗봇 연구 동향 분석</p>
+                                            <p>- 연경심, 이순용, 손진곤(방송대)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>스마트 공장 인력 양성을 위한 이러닝 콘텐츠 설계</p>
+                                            <p>- 이상혁(방송대), 박지수(전주대), 손진곤(방송대)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>메이커 수업 개념과 그 응용분야 – 이러닝을 중심으로</p>
+                                            <p>- 장재용(방송대), 박지수(전주대), 손진곤(방송대)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>면대면 수업 환경에서 실시간 형성평가 지원을 위한 학습도구 분석</p>
+                                            <p>- 조정민, 김용(방송대)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t-center">좌장: 김용(방송대)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- //변경 -->
+                </div>
+                <!-- //CONTENTS -->
+            </div>
+        </div>
+        <!-- END:BODY -->
+
+    </div>
+    
+    <script type="text/javascript" src="javascript/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(".tablist>li>a").on("click", function() {
+                var target = $(this).attr("data-target");
+                $(target).addClass("on").siblings().removeClass("on");
+
+                $(this).parent().addClass("on").siblings().removeClass("on");
+                return false;
+            })
+        })
+    </script>
+</body></html>

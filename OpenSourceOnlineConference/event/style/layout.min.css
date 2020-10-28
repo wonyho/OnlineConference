@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+*{margin:0;padding: 0;}
+html,body{height: 100%;}
+body{min-width: 320px;box-sizing:border-box;font-family: Nanum Gothic, sans-serif; font-size:14px;color:#000;letter-spacing: -0.5px;line-height: 1.5;}
+h1,h2,h3,h4,h5,h6,p,ol,li,dl,dt,dd,ul,li,a,p,em{font-family: inherit;color: inherit;}
+em{font-style: normal;}
+body.pagelayout-popup{padding-top: 0 !important;}
+h5{margin:0}
+input,select,button{font-family:inherit;cursor: pointer;}
+img,fieldset,label{border:0;margin:0;padding:0}
+ul,ol{list-style:none;padding:0;margin:0;list-style-image:none}
+ol li,ul li{padding:0;margin:0}
+strong{font-weight:600}
+a{text-decoration:none;cursor:pointer;color:inherit;font-size:inherit;font-weight:inherit}
+a:hover{text-decoration:none;cursor:pointer}
+a:active{text-decoration:none}
+a:focus{text-decoration:none}
+textarea{appearance: none;border: 1px solid #ddd;resize: none;padding: 10px;box-sizing: border-box;font-size: 14px;font-family: inherit;}
+input[type=text],input[type=password],select{border-radius:0;border:1px solid #e1e1e1;text-shadow:none;box-shadow:none;max-width:100%;height: 40px;box-sizing: border-box;padding: 5px 10px;font-size: 14px;vertical-align: middle;}
+input[type=button],input[type=submit],button, input[type=reset]{cursor: pointer;text-shadow:none;appearance:none;-webkit-appearance:none;border-radius: 0;vertical-align: middle;}
+input[type=text],input[type=password]{appearance:none;-webkit-appearance:none}
+input[readonly]{cursor:default;background-color:#f1f1f1;border-color:#ccc}
+label{display:inline-block} 
+select{appearance: none; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none;background: #fff url("../images/icon_select_arrow_big.png") no-repeat right top;background-size: 38px 100%;padding-right: 45px;color: #666;}
+select::-ms-expand {display:none;}
